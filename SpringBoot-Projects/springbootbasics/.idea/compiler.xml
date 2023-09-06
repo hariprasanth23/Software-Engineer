@@ -2,19 +2,38 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_2-spring-core" />
+        <module name="_3-crud-demo" />
+        <module name="_10-spring-mvc-crud" />
         <module name="_1-quick-start" />
+        <module name="_9-spring-mvc-validation" />
+        <module name="_7-spring-security" />
+        <module name="_5-rest-crud" />
+        <module name="_6-rest-crud-jpa" />
+        <module name="_4-rest-API" />
+        <module name="_8-thyme-leaf-demo" />
+        <module name="_2-spring-core" />
+        <module name="_11-spring-mvc-security" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="_1-quick-start" options="-parameters" />
+      <module name="_10-spring-mvc-crud" options="-parameters" />
+      <module name="_11-spring-mvc-security" options="-parameters" />
       <module name="_2-spring-core" options="-parameters" />
+      <module name="_3-crud-demo" options="-parameters" />
+      <module name="_4-rest-API" options="-parameters" />
+      <module name="_5-rest-crud" options="-parameters" />
+      <module name="_6-rest-crud-jpa" options="-parameters" />
+      <module name="_7-spring-security" options="-parameters" />
+      <module name="_8-thyme-leaf-demo" options="-parameters" />
+      <module name="_9-spring-mvc-validation" options="-parameters" />
     </option>
   </component>
 </project>

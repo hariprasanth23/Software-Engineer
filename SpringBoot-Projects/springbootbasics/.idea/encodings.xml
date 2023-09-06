@@ -3,7 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/_1-quick-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_1-quick-start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_10-spring-mvc-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_11-spring-mvc-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_2-spring-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_3-crud-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4-rest-API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_5-rest-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_6-rest-crud-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_7-spring-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_8-thyme-leaf-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_9-spring-mvc-validation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

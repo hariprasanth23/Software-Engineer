@@ -13,8 +13,17 @@
   <artifactId>springbootbasics</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>_1_quickstart</module>
+    <module>_1-quick-start</module>
     <module>_2-spring-core</module>
+    <module>_3-crud-demo</module>
+      <module>_4-rest-API</module>
+    <module>_5-rest-crud</module>
+      <module>_6-rest-crud-jpa</module>
+      <module>_7-spring-security</module>
+      <module>_8-thyme-leaf-demo</module>
+      <module>_9-spring-mvc-validation</module>
+      <module>_10-spring-mvc-crud</module>
+    <module>_11-spring-mvc-security</module>
   </modules>
   <packaging>pom</packaging>
 
