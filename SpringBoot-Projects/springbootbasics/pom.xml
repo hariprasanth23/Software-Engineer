@@ -24,6 +24,7 @@
       <module>_9-spring-mvc-validation</module>
       <module>_10-spring-mvc-crud</module>
     <module>_11-spring-mvc-security</module>
+      <module>AOP</module>
   </modules>
   <packaging>pom</packaging>
 
