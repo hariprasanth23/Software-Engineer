@@ -42,6 +42,7 @@ public class DemoSecurityConfig {
 }
 
     /*
+
     @Bean
     public InMemoryUserDetailsManager userDetailsManager(){
 

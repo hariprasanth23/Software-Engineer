@@ -1,0 +1,6 @@
+SHOQ DATABASES; -> to show all the databases we have
+Create DATABASE pet_shop ; 
+DROP DATABASE pet_shop;
+USE pet_shop;
+
+------> select database() ;--> it tells which database we are currently using 

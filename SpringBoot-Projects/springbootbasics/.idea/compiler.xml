@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_3-crud-demo" />
         <module name="_10-spring-mvc-crud" />
-        <module name="_1-quick-start" />
         <module name="_9-spring-mvc-validation" />
         <module name="AOP" />
-        <module name="_7-spring-security" />
         <module name="_5-rest-crud" />
+        <module name="_2-spring-core" />
+        <module name="_11-spring-mvc-security" />
+        <module name="_3-crud-demo" />
+        <module name="_1-quick-start" />
+        <module name="aop-basics" />
+        <module name="_7-spring-security" />
         <module name="_6-rest-crud-jpa" />
         <module name="_4-rest-API" />
         <module name="_8-thyme-leaf-demo" />
-        <module name="_2-spring-core" />
-        <module name="_11-spring-mvc-security" />
       </profile>
     </annotationProcessing>
   </component>
@@ -36,6 +37,7 @@
       <module name="_7-spring-security" options="-parameters" />
       <module name="_8-thyme-leaf-demo" options="-parameters" />
       <module name="_9-spring-mvc-validation" options="-parameters" />
+      <module name="aop-basics" options="-parameters" />
     </option>
   </component>
 </project>

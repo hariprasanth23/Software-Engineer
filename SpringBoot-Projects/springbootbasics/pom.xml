@@ -25,6 +25,7 @@
       <module>_10-spring-mvc-crud</module>
     <module>_11-spring-mvc-security</module>
       <module>AOP</module>
+      <module>aop-basics</module>
   </modules>
   <packaging>pom</packaging>
 

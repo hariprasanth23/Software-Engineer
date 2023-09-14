@@ -1,0 +1,20 @@
+zookeeper-server-start.sh ~/kafka_2.13-3.1.0/config/zookeeper.properties
+kafka-server-start.sh ~/kafka_2.13-3.1.0/config/server.properties
+
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+kraft-mode server starting -> 
+
+kafka-storage.sh random-uuid
+kafka-storage.sh format -t Conk0Ub4QQaKIikQnaPDBg -c ~/kafka_2.13-3.1.0/config/kraft/server.properties
+kafka-server-start.sh ~/kafka_2.13-3.1.0/config/kraft/server.properties
+
+kafka-topics --bootstrap-server localhost:9092 --list
+
+kafka-topics.sh --command-config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --create --topic demo_java
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+
+kafka-console-consumer.sh --consumer.config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --topic demo_java --from-beginning
